@@ -49,10 +49,12 @@
   border: 1px solid #cce7d0;
   border-radius: 4px;
   margin: 15px 0;
+  transition: all 0.3s ease;
 }
 
 #feature .fe-box:hover {
-  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);*/
 }
 
 #feature .fe-box img {
@@ -111,12 +113,12 @@
   cursor: pointer;
   box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
   margin: 15px 0;
-  transition: all 0.3s ease;
+  transition: all 0.7s ease;
   position: relative;
 }
 
 #product1 .pro:hover {
-  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 20px 15px 25px rgba(0, 0, 0, 0.5);
 }
 
 #product1 .pro img {
