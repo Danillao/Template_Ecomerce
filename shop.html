@@ -10,6 +10,7 @@
   <!--CSS-->
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/shop.css">
   <link rel="stylesheet" href="assets/css/footer.css">
 
   <title>E-Comerce Template</title>
@@ -24,8 +25,8 @@
 
     <div>
       <ul id="navbar">
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="shop.html">Shop</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="shop.html">Shop</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -41,52 +42,17 @@
   </section>
 
 
-  <!--########### HERO #########--->
-  <section id="hero">
-    <h4>Oferta de troca</h4>
-    <h2>Confira Nossas Ofertas</h2>
-    <h1>em todos os produtos</h1>
+  <!--########### PAGE HEADER #########--->
+  <section id="page-header">
+    <h2>#FicaEmCasa</h2>
     <p>acumule cupons de até 70% de desconto</p>
-
-    <button>Compre Já!</button>
-  </section>
-
-
-  <!--########### FEATURES #########--->
-  <section id="feature" class="section-p1">
-    <div class="fe-box">
-      <img src="assets/images/features/f1.png">
-      <h6>Frete Grátis</h6>
-    </div>
-    <div class="fe-box">
-      <img src="assets/images/features/f2.png">
-      <h6>Pedido Online</h6>
-    </div>
-    <div class="fe-box">
-      <img src="assets/images/features/f3.png">
-      <h6>Pagamento Seguro</h6>
-    </div>
-    <div class="fe-box">
-      <img src="assets/images/features/f4.png">
-      <h6>Promoções</h6>
-    </div>
-    <div class="fe-box">
-      <img src="assets/images/features/f5.png">
-      <h6>Cliente Satisfeito</h6>
-    </div>
-    <div class="fe-box">
-      <img src="assets/images/features/f6.png">
-      <h6>Suporte 24h</h6>
-    </div>
   </section>
 
 
   <!--########### PRODUCTS #########--->
   <section id="product1" class="section-p1">
-    <h2>Produtos em Destaque</h2>
-    <p>Coleção de Verão Leve e Elegante</p>
     <div class="pro-container">
-      <div class="pro">
+      <div class="pro" onclick="window.location.href='showProduct.html'">
         <img src="assets/images/products/f1.jpg">
         <div class="description">
           <span>Adidas</span>
@@ -221,23 +187,7 @@
         </div>
         <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
       </div>
-    </div>
-  </section>
 
-
-  <!--########### Banner #########--->
-  <section id="banner" class="section-m1">
-    <h4>Produtos Exclusivos</h4>
-    <h2>Descontos <span>de 70%</span> - Produtos & Acessorios</h2>
-    <button class="normal">Veja Mais</button>
-  </section>
-
-
-  <!--########### Arrivals #########--->
-  <section id="product1" class="section-p1">
-    <h2>Últimos Lançamentos</h2>
-    <p>Adicionados Recentes da Loja</p>
-    <div class="pro-container">
       <div class="pro">
         <img src="assets/images/products/n1.jpg">
         <div class="description">
@@ -377,40 +327,12 @@
   </section>
 
 
-  <!--########### SM-Banner #########--->
-  <section id="sm-banner" class="section-p1">
-    <div class="banner-box">
-      <h4>Ofertas malucas</h4>
-      <h2>Pague 1 Leve 2</h2>
-      <span>O Melhor Vestido Clássico em Promoção</span>
-      <button class="white">Veja Mais</button>
-    </div>
-
-    <div class="banner-box banner-box2">
-      <h4>Primavera Verão</h4>
-      <h2>Próxima Temporada</h2>
-      <span>O Melhor Vestido Clássico em Promoção</span>
-      <button class="white">Collection</button>
-    </div>
+  <!--########### PAGINATION #########--->
+  <section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="fal fa-long-arrow-alt-right"></i></a>
   </section>
-
-
-  <!--########### Banner3 #########--->
-  <section id="banner3" class="section-p1">
-    <div class="banner-box">
-      <h2>VENDA DE TEMPORADA</h2>
-      <h3>Coleção de Inverno -50% OFF</h3>
-    </div>
-    <div class="banner-box banner-box2">
-      <h2>VENDA DE TEMPORADA</h2>
-      <h3>Coleção de Inverno -50% OFF</h3>
-    </div>
-    <div class="banner-box banner-box3">
-      <h2>VENDA DE TEMPORADA</h2>
-      <h3>Coleção de Inverno -50% OFF</h3>
-    </div>
-  </section>
-
 
   <!--########### Register Newsletter #########--->
   <section id="newsletter" class="section-p1 section-m1">
@@ -477,9 +399,6 @@
       <p>&copy; 2022 - Todos os Direitos Reservados</p>
     </div>
   </footer>
-
-
-
 
   <!--JS-->
   <script src="assets/js/script.js"></script>
