@@ -47,7 +47,7 @@ p {
   margin: 40px 0;
 }
 
-button.normal {
+button.btn_normal {
   font-size: 14px;
   font-weight: 600;
   padding: 15px 30px;
@@ -60,7 +60,7 @@ button.normal {
   transition: 0.4s ease;
 }
 
-button.white {
+button.btn_white {
   font-size: 13px;
   font-weight: 600;
   padding: 11px 18px;
